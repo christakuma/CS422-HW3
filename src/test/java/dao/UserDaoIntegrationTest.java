@@ -26,6 +26,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.Mockito.*;
 
+// Integration test to verify interaction between UserServiceImpl and UserDaoImpl, specifically for user update
 @ExtendWith(MockitoExtension.class)
 public class UserDaoIntegrationTest {
 
